@@ -1,0 +1,28 @@
+{
+  "name": "advent-of-code-2024-ts",
+  "version": "1.0.0",
+  "type": "module",
+  "engines": {
+    "npm": ">=9.0.0",
+    "node": ">=19.8.0"
+  },
+  "scripts": {
+    "tsc": "tsc --build --watch",
+    "playground": "node dist/src/playground.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rradonic/advent-of-code-2024-ts.git"
+  },
+  "author": "Ranko Radonic",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.15.0",
+    "@tsconfig/node22": "^22.0.0",
+    "@types/node": "^22.9.1",
+    "eslint": "^9.15.0",
+    "jest": "^30.0.0-alpha.6",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.15.0"
+  }
+}
