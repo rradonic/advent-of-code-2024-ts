@@ -1,0 +1,16 @@
+{
+  "name": "advent-of-code-2024-ts",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "app",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "fabiospampinato.vscode-open-in-github",
+        "ms-azuretools.vscode-docker"
+      ]
+    }
+  },
+  "workspaceFolder": "/workspace"
+}

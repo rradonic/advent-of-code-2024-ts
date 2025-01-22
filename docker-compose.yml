@@ -1,0 +1,11 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile.app
+    stop_signal: SIGKILL
+    volumes:
+      - advent-of-code-2024-ts:/workspace
+      - ~/.ssh:/root/.ssh
+volumes:
+  advent-of-code-2024-ts:
