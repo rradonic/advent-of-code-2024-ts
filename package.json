@@ -8,7 +8,8 @@
   },
   "scripts": {
     "tsc": "tsc --build --watch",
-    "playground": "node dist/src/playground.js"
+    "playground": "node dist/src/playground.js",
+    "day1": "node dist/src/day1.js"
   },
   "repository": {
     "type": "git",
