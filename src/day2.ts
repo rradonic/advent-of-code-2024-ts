@@ -1,9 +1,6 @@
 import fs from "fs";
 import readline from "readline";
 
-const inputStream = fs.createReadStream("./src/day2.input");
-const lineReader = readline.createInterface({ input: inputStream });
-
 function safe(values: number[]) {
   // not safe if we can't determine direction
   if (values[0] === values[1]) {
@@ -31,6 +28,9 @@ function safe(values: number[]) {
 
   return true;
 }
+
+const inputStream = fs.createReadStream("./src/day2.input");
+const lineReader = readline.createInterface({ input: inputStream });
 
 let safeCounter = 0;
 let dampenedSafeCounter = 0;

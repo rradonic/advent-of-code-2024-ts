@@ -10,7 +10,8 @@
     "tsc": "tsc --build --watch",
     "playground": "node dist/src/playground.js",
     "day1": "node dist/src/day1.js",
-    "day2": "node dist/src/day2.js"
+    "day2": "node dist/src/day2.js",
+    "day3": "node dist/src/day3.js"
   },
   "repository": {
     "type": "git",
@@ -23,7 +24,6 @@
     "@tsconfig/node22": "^22.0.0",
     "@types/node": "^22.9.1",
     "eslint": "^9.15.0",
-    "jest": "^30.0.0-alpha.6",
     "typescript": "^5.6.3",
     "typescript-eslint": "^8.15.0"
   }
