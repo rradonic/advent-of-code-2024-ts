@@ -9,7 +9,8 @@
   "scripts": {
     "tsc": "tsc --build --watch",
     "playground": "node dist/src/playground.js",
-    "day1": "node dist/src/day1.js"
+    "day1": "node dist/src/day1.js",
+    "day2": "node dist/src/day2.js"
   },
   "repository": {
     "type": "git",
