@@ -13,7 +13,8 @@
     "day2": "node dist/src/day2.js",
     "day3": "node dist/src/day3.js",
     "day4": "node dist/src/day4.js",
-    "day5": "node dist/src/day5.js"
+    "day5": "node dist/src/day5.js",
+    "day6": "node dist/src/day6.js"
   },
   "repository": {
     "type": "git",
